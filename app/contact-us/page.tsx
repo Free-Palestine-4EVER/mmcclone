@@ -30,8 +30,8 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Phone</h3>
                 <p className="text-gray-700 mb-2">Call us directly:</p>
-                <a href="tel:+962777424937" className="text-amber-600 hover:text-amber-700 font-medium break-words">
-                  +962 777 424 937
+                <a href="tel:+962777424837" className="text-amber-600 hover:text-amber-700 font-medium break-words">
+                  +962 777 424 837
                 </a>
               </div>
 
@@ -61,7 +61,7 @@ export default function ContactPage() {
 
             <div className="mt-12">
               <a
-                href="https://wa.me/962777424937"
+                href="https://wa.me/962777424837"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-green-500 px-8 py-3 text-white hover:bg-green-600 transition-colors"
@@ -149,7 +149,7 @@ export default function ContactPage() {
           <div className="mt-8">
             <Button asChild className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 h-auto">
               <a
-                href="https://wa.me/962777424937"
+                href="https://wa.me/962777424837"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"

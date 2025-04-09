@@ -370,7 +370,7 @@ export default function CamelRidesPage() {
 
           <div className="mt-8">
             <a
-              href="https://wa.me/962777424937"
+              href="https://wa.me/962777424837"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-md bg-green-500 px-4 py-2 text-white hover:bg-green-600"
