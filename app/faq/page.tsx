@@ -166,7 +166,7 @@ export default function FAQPage() {
               Email Us
             </a>
             <a
-              href="https://wa.me/962777424937"
+              href="https://wa.me/962777424837"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-medium transition-colors"
