@@ -3,14 +3,13 @@ import Link from "next/link"
 import Image from "next/image"
 import { blogPosts } from "@/data/blog-posts"
 import { BlogPagination } from "@/components/blog-pagination"
-import { generateBlogListingSchema } from "@/lib/schema"
 
 export const metadata: Metadata = {
   title: "Wadi Rum Desert Blog | Travel Tips, Guides & Stories",
   description:
     "Explore our collection of articles about Wadi Rum desert adventures, Bedouin culture, travel tips, and stunning photography from Jordan's red desert.",
   keywords:
-    "Wadi Rum blog, desert travel, Jordan travel blog, Bedouin culture, desert photography, Wadi Rum travel tips",
+    "Wadi Rum blog, desert travel, Jordan travel blog, Bedouin culture, desert photography, Wadi Rum travel tips, Wadi Rum Jeep tours",
   alternates: {
     canonical: "https://wadirum-adventures.com/blog",
   },
@@ -33,25 +32,8 @@ export default function BlogPage({
   const endIndex = startIndex + postsPerPage
   const currentPosts = blogPosts.slice(startIndex, endIndex)
 
-  // Generate schema
-  const blogListingSchema = generateBlogListingSchema({
-    title: "Wadi Rum Desert Blog",
-    description:
-      "Explore our collection of articles about Wadi Rum desert adventures, Bedouin culture, travel tips, and stunning photography from Jordan's red desert.",
-    url: "https://wadirum-adventures.com/blog",
-    posts: currentPosts.map((post) => ({
-      title: post.title,
-      excerpt: post.excerpt,
-      url: `https://wadirum-adventures.com/blog/${post.slug}`,
-      datePublished: post.date,
-      image: `https://wadirum-adventures.com${post.image}`,
-    })),
-  })
-
   return (
     <div className="container mx-auto px-4 py-12">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogListingSchema) }} />
-
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Wadi Rum Desert Blog</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -66,7 +48,7 @@ export default function BlogPage({
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
               <div className="relative h-64 w-full">
                 <Image
-                  src={post.image || "/placeholder.svg"}
+                  src={post.image || "/images/stargazing-arch.png"}
                   alt={post.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
