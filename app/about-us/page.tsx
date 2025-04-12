@@ -27,19 +27,37 @@ export default function AboutUsPage() {
       <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto">
         <div className="space-y-6 md:space-y-8">
           <p className="text-lg">
-            Wadi Rum Heritage was founded by local Bedouins who have lived in this magnificent desert landscape for
-            generations. Our team grew up exploring the vast canyons, climbing the sandstone mountains, and learning the
-            ancient ways of desert life from our elders.
+            Mohammed Mutlak Camp is one of the oldest and most respected Bedouin camps in Wadi Rum, Jordan.
           </p>
           <p className="text-lg">
-            What began as a small family operation has grown into a respected tour company, but we've never lost our
-            connection to our roots. We remain committed to sharing the authentic culture, traditions, and natural
-            beauty of Wadi Rum with visitors from around the world.
+            Established over 25 years ago by Salem, a local Bedouin deeply connected to the desert, the camp was named
+            in honor of his eldest brother, Mohammed Mutlak. This tribute reflects the family's commitment to preserving
+            and sharing their heritage.
           </p>
           <p className="text-lg">
-            Our deep knowledge of the desert, passed down through generations, allows us to offer unique experiences
-            that go beyond typical tourism. When you travel with Wadi Rum Heritage, you're not just a tourist - you're
-            our honored guest, experiencing our homeland through the eyes of those who know and love it best.
+            As one of the first officially registered camps in the Wadi Rum Protected Area, Mohammed Mutlak Camp has
+            played a significant role in introducing travelers to the authentic Bedouin way of life. Over the years, it
+            has been recognized in various travel guides and publications for its genuine hospitality and unique desert
+            experiences.
+          </p>
+          <p className="text-lg">
+            The camp is strategically located in the "Sunset Area" (Um Sabatah), offering guests breathtaking views of
+            red and white sand dunes, especially during sunset. Its remote setting ensures a tranquil environment,
+            perfect for stargazing and immersing oneself in the desert's natural beauty.
+          </p>
+          <p className="text-lg">
+            Accommodations at Mohammed Mutlak Camp blend traditional Bedouin design with modern comforts. Guests can
+            expect well-insulated tents made from natural materials, equipped with solid beds, electrical outlets, and
+            lighting. The camp also provides separate bathroom facilities for males and females, ensuring privacy and
+            convenience.
+          </p>
+          <p className="text-lg">
+            Beyond accommodations, the camp offers a range of desert experiences, including jeep tours, camel rides, and
+            hiking adventures. These activities are led by knowledgeable local guides who share insights into the
+            region's history, geology, and Bedouin traditions.
+          </p>
+          <p className="text-lg font-medium">
+            Experience the heart of Wadi Rum with Mohammed Mutlak Camp — a place where tradition meets hospitality.
           </p>
         </div>
       </section>
